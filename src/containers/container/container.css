@@ -1,0 +1,29 @@
+.container2 {
+    display: flex;
+    position: relative;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.container2 b {
+    margin-top: calc(2vh);
+    margin-left: calc(1vw);
+    background: rgb(9, 40, 73);
+    position: absolute;
+    display: inline-block;
+    border: 1px solid rgb(82, 82, 82);
+    height: calc(82vh);
+    width: calc(98vw);
+}
+
+.container2 c {
+    margin-top: calc(2vh);
+    margin-left: calc(1vw);
+    background: rgb(6, 53, 104);
+    position: absolute;
+    display: inline-block;
+    border: 1px solid rgb(82, 82, 82);
+    height: calc(42vh);
+    width: calc(50vw);
+}
