@@ -48,25 +48,6 @@
     margin-top: 1.5rem;
 }
 
-.chaintech__header-content__input button {
-    flex: 0.6;
-    width: 100%;
-    min-height: 50px;
-    font-family: var(--font-family);
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 28px;
-    background: #FF4820;
-    border: 2px solid #FF4820;
-    padding: 0 1rem;
-    color: #fff;
-    cursor: pointer;
-    outline: none;
-
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
-}
-
 .chaintech__header-content__logo {
     width: 100%;
     display: flex;
@@ -80,16 +61,6 @@
 .chaintech__header-content__logo img {
     width: 160px;
     height: 120px;
-}
-
-.chaintech__header-content__logo p {
-    margin: 0 0 0 1rem;
-    font-family: var(--font-family);
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 38px;
-    color: #fff;
-    text-align: center;
 }
 
 @media screen and (max-width: 1050px) {
@@ -120,12 +91,6 @@
     .chaintech__header-content__logo p {
         margin: 0;
     }
-
-    .chaintech__header-content__input input,
-    .chaintech__header-content__input button {
-        font-size: 16px;
-        line-height: 24px;
-    }
 }
 
 @media screen and (max-width: 490px) {
@@ -137,11 +102,5 @@
     .chaintech__header-content p {
         font-size: 14px;
         line-height: 24px;
-    }
-
-    .chaintech__header-content__input input,
-    .chaintech__header-content__input button {
-        font-size: 12px;
-        line-height: 16px;
     }
 }

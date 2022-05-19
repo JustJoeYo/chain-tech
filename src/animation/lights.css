@@ -1,0 +1,89 @@
+section {
+    margin-top: calc(-67vh);
+    margin-left: calc(-133vh);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: transparent;
+    animation: changeColor 5s linear infinite;
+}
+
+section .lights {
+    position: relative;
+    display: flex;
+}
+
+section .lights .dot {
+    position: relative;
+    display: block;
+    width: 20px;
+    height: 20px;
+    background: #0e2c91;
+    transform: scale(0.1);
+    box-shadow: 0 0 10px #0e2c91, 0 0 20px #0e2c91, 0 0 40px #0e2c91, 0 0 80px #0e2c91, 0 0 160px #0e2c91, 0 0 320px #0e2c91;
+    margin: 15px 10px;
+    border-radius: 50%;
+    animation: alternateDot 2s linear infinite;
+    animation-delay: calc(0.1s * var(--i));
+}
+
+section2 {
+  margin-top: calc(-32vh);
+  margin-left: calc(-133vh);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: transparent;
+  animation: changeColor 5s linear infinite;
+}
+
+section2 .lights2 {
+  position: relative;
+  display: flex;
+}
+
+section2 .lights2 .dot {
+  position: relative;
+  display: block;
+  width: 20px;
+  height: 20px;
+  background: #0e2c91;
+  transform: scale(0.1);
+  box-shadow: 0 0 10px #0e2c91, 0 0 20px #0e2c91, 0 0 40px #0e2c91, 0 0 80px #0e2c91, 0 0 160px #0e2c91, 0 0 320px #0e2c91;
+  margin: 15px 10px;
+  border-radius: 50%;
+  animation: alternateDot 2s linear infinite;
+  animation-delay: calc(0.1s * var(--i));
+}
+
+@keyframes alternateDot {
+    0%
+    {
+        transform: scale(0.1);
+    }
+    10%
+    {
+        transform: scale(1);
+    }
+    50%, 100%
+    {
+        transform: scale(0.1);
+    }
+}
+
+/*@keyframes changeColor {
+  0% {
+    filter: hue-rotate(0deg);
+  }
+  100% {
+    filter: hue-rotate(360deg);
+  }
+}*/

@@ -7,19 +7,19 @@
 }
 
 .container2 b {
-    margin-top: calc(2vh);
+    margin-top: calc(2.5vh);
     margin-left: calc(1vw);
     background: rgb(9, 40, 73);
     position: absolute;
     display: inline-block;
     border: 1px solid rgb(82, 82, 82);
-    height: calc(82vh);
+    height: calc(81.5vh);
     width: calc(98vw);
 }
 
 .container2 c {
-    margin-top: calc(2vh);
-    margin-left: calc(1vw);
+    margin-top: calc(5vh);
+    margin-left: calc(2vw);
     background: rgb(6, 53, 104);
     position: absolute;
     display: inline-block;
