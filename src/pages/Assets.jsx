@@ -2,9 +2,9 @@ import React from 'react'
 import { Header } from '../containers';
 import '../containers/container/container.css';
 
-function Config() {
+function Assets() {
   return (
-    <div className="Config">
+    <div className="Assets">
       <Header />
       <div className='container2'>
         <b></b>
@@ -13,4 +13,4 @@ function Config() {
   )
 }
 
-export default Config
+export default Assets

@@ -1,13 +1,6 @@
 import './App.css';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Home from "./pages/Home.jsx";
-import Dashboard from './pages/Dashboard.jsx';
-//import Logs from './pages/Logs.jsx';
-//import Assets from './pages/Assets.jsx';
-import Config from './pages/Config.jsx';
-
-//<Route path="/logs" element={<Logs />} />
-//<Route path="/assets" element={<Assets />} />
+import { Home, Dashboard, Logs, Assets, Config } from './pages';
 
 function App() {
   return (
@@ -16,6 +9,8 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/dashboard" element={<Dashboard />} />
+          <Route path="/logs" element={<Logs />} />
+          <Route path="/assets" element={<Assets />} />
           <Route path="/config" element={<Config />} />
         </Routes>
       </Router>

@@ -5,7 +5,6 @@ import Navbar from '../navbar/Navbar';
 
 const Header = () => (
   <div className="gradient__bg">
-
     <div className="chaintech__header section__padding" id="home">
       <div className="chaintech__header-content">
         <div className="chaintech__header-content__logo">
@@ -14,8 +13,6 @@ const Header = () => (
         </div>
       </div>
     </div>
-
-    
   </div>
 );
 

@@ -2,9 +2,9 @@ import React from "react";
 import { Header } from '../containers';
 import '../containers/container/container.css';
 
-function MainPage() {
+function Dashboard() {
   return (
-    <div className="MainPg">
+    <div className="Dashboard">
       <Header />
       <div className='container2'>
         <b></b>
@@ -14,4 +14,4 @@ function MainPage() {
   );
 }
 
-export default MainPage;
+export default Dashboard;
